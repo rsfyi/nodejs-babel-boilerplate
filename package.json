@@ -1,0 +1,36 @@
+{
+  "name": "boilerplate-setup",
+  "version": "1.0.0",
+  "description": "boilerplate setup for node js with babel and es6",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsdoc/nodejs-babel-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "mysql",
+    "server",
+    "app"
+  ],
+  "author": "rahul singh(rsdoc)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsdoc/nodejs-babel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/rsdoc/nodejs-babel-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
